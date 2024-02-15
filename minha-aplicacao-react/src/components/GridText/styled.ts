@@ -29,7 +29,9 @@ export const GridElement = styled.div`
   ${({ theme }) => css`
     ${HeadingContainer} {
       position: relative;
-      left: 5rem;
+      left: 4rem;
+      padding: 15px;
+      margin: 16px;
     }
 
     ${HeadingContainer}::before {
