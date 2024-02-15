@@ -19,14 +19,14 @@ const Base: React.FC<BaseProps> = ({
   children,
 }) => {
   return (
-    <>
+    <div>
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
         {children}
         <Footer footerHtml={footerHtml} />
       </Styled.Container>
       <GoTop />
-    </>
+    </div>
   );
 };
 

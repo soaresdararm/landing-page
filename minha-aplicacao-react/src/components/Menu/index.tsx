@@ -12,7 +12,7 @@ interface MenuProps {
 }
 
 const Menu: React.FC<MenuProps> = ({ links = [], logoData }) => {
-  const [visible, setVisible] = useState<boolean>(true);
+  const [visible, setVisible] = useState<boolean>(false);
   const [buttonHidden, setButtonHidden] = useState<boolean>(true);
 
   useEffect(() => {

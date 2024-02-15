@@ -8,14 +8,14 @@ export const mockBase = {
   children: (
     <>
       <GridTwoColumn
-        text={"sbbsd sdhjsd jsdhjd jdj djhdjdj "}
+        text={
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+        }
         srcImg={img}
         {...gridData}
         background
       />
-      <GridText {...gridData}  />
-     
-
+      <GridText {...gridData} />
       <GridText {...gridData} background />
       <GridText {...gridData} />
       <GridText {...gridData} background />
@@ -25,7 +25,7 @@ export const mockBase = {
   links: links,
   logoData: {
     text: "Logo",
-    link: "#",
+    link: "home",
   },
   footerHtml: "<p>Teste de footer</p>",
 };
