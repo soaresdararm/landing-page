@@ -1,5 +1,5 @@
-import React from 'react';
-import * as Styled from './styles';
+import React from "react";
+import * as Styled from "./styles";
 
 interface TextComponentProps {
   children: React.ReactNode;

@@ -3,11 +3,9 @@ import * as Styled from "./styles";
 
 function Home() {
   return (
-    <div className="App">
-      <Styled.Wrapper>
-        <Heading>LOGO</Heading>
-      </Styled.Wrapper>
-    </div>
+    <Styled.Wrapper>
+      <Heading size="big"> LOGO</Heading>
+    </Styled.Wrapper>
   );
 }
 
